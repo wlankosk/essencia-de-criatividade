@@ -1,5 +1,5 @@
 ---
-title: Pulseira de florzinhas — EXEMPLO
+title: 0001 - Pulseira Cadeado
 description: Produto ilustrativo. Substitua por uma peça real e sua foto antes de ativar.
 category: Pulseiras
 price: 18.5
