@@ -1,9 +1,9 @@
 ---
-title: "Pulseira de florzinhas — EXEMPLO"
-description: "Produto ilustrativo. Substitua por uma peça real e sua foto antes de ativar."
-category: "Pulseiras"
-price: 0
-image: ""
-available: false
-featured: false
+title: Pulseira de florzinhas — EXEMPLO
+description: Produto ilustrativo. Substitua por uma peça real e sua foto antes de ativar.
+category: Pulseiras
+price: 18.5
+image: media/whatsapp-image-2026-11-02-at-181219.jpeg
+available: true
+featured: true
 ---
