@@ -25,7 +25,11 @@ content:
       - name: price
         label: Preço em reais
         type: number
+              - name: price
+        label: Preço em reais
+        type: number
         description: "Use ponto como separador decimal (ex.: 12.50)
+        required: true
         required: true
       - name: image
         label: Foto principal
