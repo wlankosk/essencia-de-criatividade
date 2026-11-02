@@ -1,8 +1,14 @@
+
 media:
   input: media
   output: media
   rename: safe
-  extensions: [jpg, jpeg, png, webp]
+  extensions:
+    - jpg
+    - jpeg
+    - png
+    - webp
+
 content:
   - name: products
     label: Produtos da Lojinha
@@ -14,46 +20,66 @@ content:
         label: Nome do produto
         type: string
         required: true
+
       - name: description
         label: Descrição
         type: text
+
       - name: category
         label: Categoria
         type: select
         options:
-          values: [Pulseiras, Colares, Anéis, Brincos, Tererê, Acessórios de cabelo, Chaveiros, Crochê, Outros]
+          values:
+            - Pulseiras
+            - Colares
+            - Anéis
+            - Brincos
+            - Tererê
+            - Acessórios de cabelo
+            - Chaveiros
+            - Crochê
+            - Outros
+
       - name: price
         label: Preço em reais
         type: number
-              - name: price
-        label: Preço em reais
-        type: number
-        description: "Use ponto como separador decimal (ex.: 12.50)
+        description: "Use ponto como separador decimal (ex.: 12.50)"
         required: true
-        required: true
+
       - name: image
         label: Foto principal
         type: image
         options:
-          extensions: [jpg, jpeg, png, webp]
+          extensions:
+            - jpg
+            - jpeg
+            - png
+            - webp
           rename: safe
+
       - name: available
         label: Disponível para pedidos
         type: boolean
+
       - name: featured
         label: Produto em destaque
         type: boolean
+
   - name: settings
     label: Configurações da loja
     type: file
     path: _data/store.yml
     fields:
       - name: whatsapp
-        label: WhatsApp comercial do responsável (DDI+DDD+número, sem símbolos)
+        label: WhatsApp comercial
         type: string
+        description: "Informe 55 + DDD + número, sem espaços."
+
       - name: instagram
-        label: Instagram (sem @)
+        label: Instagram
         type: string
+        description: "Informe o usuário sem @."
+
       - name: welcome
         label: Mensagem de boas-vindas
         type: text
