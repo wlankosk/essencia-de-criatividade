@@ -1,0 +1,6 @@
+title: Essência de Criatividade
+description: Acessórios artesanais e criativos
+markdown: kramdown
+collections:
+  products:
+    output: false
