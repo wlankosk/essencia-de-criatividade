@@ -5,6 +5,6 @@ description: Cores disponíveis da bolinha pequena:amarelo azul cores pastéis
   laranja e verde
 category: Pulseiras
 price: 5
-available: false
-featured: false
+available: true
+featured: true
 ---
