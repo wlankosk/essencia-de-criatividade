@@ -1,9 +1,8 @@
 ---
-title: 0001 - Pulseira Cadeado
-description: Produto ilustrativo. Substitua por uma peça real e sua foto antes de ativar.
+title: 0001 - Pulseira balinha
 category: Pulseiras
-price: 18.5
-image: media/whatsapp-image-2026-11-02-at-181219.jpeg
+price: 10
+image: media/img-20261102-wa0027.jpg
 available: true
 featured: true
 ---
